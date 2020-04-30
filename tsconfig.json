@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "test-component-library": [
+        "dist/test-component-library"
+      ],
+      "test-component-library/*": [
+        "dist/test-component-library/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
